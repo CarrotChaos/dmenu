@@ -7,10 +7,13 @@ static const char *fonts[] = {
 	"JetBrains Mono:size=11:style=Bold"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
+static const char sel_color[] = "#a6da95";
+// static const char sel_color[] = "#cba6f7";
 static const char *colors[SchemeLast][2] = {
+
 	/*     fg         bg       */
 	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#000000", "#cba6f7" },
+	[SchemeSel] = { "#000000", sel_color },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
 
