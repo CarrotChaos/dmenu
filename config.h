@@ -6,8 +6,7 @@ static int topbar = 1; /* -b  option; if 0, dmenu appears at bottom     */
 static const char *fonts[] = {"JetBrains Mono:size=11:style=Bold"};
 static const char *prompt =
     NULL; /* -p  option; prompt to the left of input field */
-static const char sel_color[] = "#b8bb26";
-// static const char sel_color[] = "#cba6f7";
+static const char sel_color[] = "#cba6f7";
 static const char *colors[SchemeLast][2] = {
 
     /*     fg         bg       */
