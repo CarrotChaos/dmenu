@@ -10,7 +10,7 @@ static const char sel_color[] = "#cba6f7";
 static const char *colors[SchemeLast][2] = {
 
     /*     fg         bg       */
-    [SchemeNorm] = {"#bbbbbb", "#222222"},
+    [SchemeNorm] = {"#bbbbbb", "#181825"},
     [SchemeSel] = {"#000000", sel_color},
     [SchemeOut] = {"#000000", "#00ffff"},
 };
